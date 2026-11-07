@@ -1,0 +1,20 @@
+# ==============================================================================
+# Danh sach cac app tuy chon (Optional) cho Mecool KM2
+# Chi tat nhung ung dung nao ban THUC SU KHONG DUNG DEN.
+# ==============================================================================
+
+# --- DICH VU GOOGLE PHU ---
+# com.google.android.youtube.tvkids       # YouTube Kids (neu nha khong co tre nho)
+# com.google.android.youtube.tvmusic      # YouTube Music TV
+# com.google.android.apps.mediashell     # Chromecast built-in (Tat neu khong bao gio cast tu dien thoai)
+# com.google.android.backdrop            # Man hinh cho screensaver Google
+# com.google.android.tts                 # Google Text-to-Speech
+
+# --- APP XEM PHIM / DICH VU THUONG MAI (Neu ban khong co tai khoan / khong xem) ---
+# com.amazon.amazonvideo.livingroom      # Amazon Prime Video
+# com.apple.atve.androidtv.appletv       # Apple TV
+# com.boosteroidtv.streaming             # Dich vu choi game Boosteroid
+
+# --- GOOGLE TV LAUNCHER (Da tat de dung Projectivy lam mac dinh) ---
+com.google.android.tvrecommendations
+com.google.android.tvlauncher

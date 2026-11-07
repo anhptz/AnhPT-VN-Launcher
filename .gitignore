@@ -1,0 +1,23 @@
+# Build artifacts
+vn-launcher/build/
+bin/
+obj/
+*.apk
+*.idsig
+*.dex
+*.class
+*.odex
+
+# ADB and heavy binaries
+platform-tools/
+platform-tools.zip
+
+# Device dumps & temporary debug files
+packages_all.txt
+backup_packages_*.txt
+vn_home_screenshot.png
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

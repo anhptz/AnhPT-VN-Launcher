@@ -1,0 +1,32 @@
+# ==============================================================================
+# CleanYourTV - Danh sach debloat toi uu cho Mecool KM2 (Amlogic S905X4)
+# Dua tren nguyen ly: https://github.com/Gathin23/cleanyourtv
+# Chi tat cac dich vu chay ngam, telemetry, app test thua thieu tren TV
+# KHONG dung cham den: Remote Bluetooth, Voice Search (Katniss), Driver Amlogic
+# ==============================================================================
+
+# === NHOM 1: TELEMETRY, THEO DOI & THU THAP DU LIEU (Hoan toan an toan) ===
+com.google.android.feedback
+com.android.adservices.api
+com.android.federatedcompute.services
+com.android.ondevicepersonalization.services
+
+# === NHOM 2: HE THONG THUA & DICH VU KHONG DUNG CHO TV BOX (Giam RAM dang ke) ===
+com.android.printspooler
+com.google.android.marvin.talkback
+com.android.providers.contacts
+com.android.providers.calendar
+com.google.android.syncadapters.calendar
+com.google.android.tungsten.setupwraith
+com.google.android.play.games
+com.android.managedprovisioning
+com.android.healthconnect.controller
+com.android.health.connect.backuprestore
+com.android.companiondevicemanager
+com.android.hotspot2.osulogin
+com.android.pacprocessor
+com.android.dynsystem
+
+# === NHOM 3: APP TEST XUAT XUONG CUA NHA SAN XUAT (SDT / OEM) ===
+com.sdt.producttest
+com.oem.qa
