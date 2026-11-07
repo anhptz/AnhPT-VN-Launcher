@@ -2,6 +2,8 @@
 vn-launcher/build/
 bin/
 obj/
+.build-tools/
+cleanyourtv/
 *.apk
 *.idsig
 *.dex
